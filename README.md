@@ -4,7 +4,9 @@
 
 **Online Continual Learning on a Contaminated Data Stream with Blurry Task Boundaries**<br>
 Jihwan Bang, Hyunseo Koh, Seulki Park, Hwanjun Song, Jung-Woo Ha, Jonghyun Choi <br>
-CVPR 2022
+CVPR 2022 <br>
+[Paper](https://arxiv.org/abs/2203.15355) |
+[Slide]() | [Video]() | [Bibtex](#Citation)<br>
 
 ## Abstract 
 Learning under a continuously changing data distribution with incorrect labels is a desirable real-world problem
@@ -119,7 +121,18 @@ In addition, you can also use the `tensorboard` as following command.
 tensorboard --logdir tensorboard
 ```
 
-### License 
+## Citation 
+```angular2
+@InProceedings{puridiver_cvpr22,
+    author    = {Bang, Jihwan and Koh, Hyunseo and Park, Seulki and Song, Hwanjun and Ha, Jung-Woo and Choi, Jonghyun},
+    title     = {Online Continual Learning on a Contaminated Data Stream with Blurry Task Boundaries},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022}
+}
+```
+
+## License 
 ```angular2html
 Copyright 2022-present NAVER Corp.
 
